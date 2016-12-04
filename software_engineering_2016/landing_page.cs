@@ -52,8 +52,9 @@ namespace software_engineering_2016
                 }
                 if (count == 1)
                 {
-                    MessageBox.Show("Username and password is correct");
                     this.Hide();
+                    mainmenu menu = new mainmenu();
+                    menu.ShowDialog();
                 }
                 else if (count > 1)
                 {
